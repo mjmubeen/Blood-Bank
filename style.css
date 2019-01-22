@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding: 0;
+    box-shadow: #f44336;
+}
+
+header {
+    height: 100vh;
+}
+
+body{
+    font-family: Tahoma;
+}
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+.logo{
+    height: 48px;
+    padding: 20px 10px;
+}
+
+.icon-bar{
+    background: orangered;
+}
+
+.logo{
+    height: 80px;
+}
+
+li a{
+    color:  orangered;
+}
+
+.big-text{
+    font-size: 52px;
+    margin:20px 0;
+    color:  orangered;
+}
+
+.h1{
+    text-align:center;
+    padding: 20px;
+}
+
+input[type=text],input[type=tel],input[type=email], input[type=password], select, textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.register{
+    background:darkred;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    font-size:18px;
+    padding: 20px;
+    border-radius:10px;
+
+}
+
+#register
+{
+    margin-left: 50px;
+}
+
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+#name{
+    width: 300px;
+    border:none;
+    border-radius:3px;
+    outline:0;
+    padding:7px;
+}
+
+#ph{
+    width: 65px;
+    padding:7px;
+    border:none;
+    border-radius:3px;
+    outline:0;
+}
+
+#Number{
+    width: 240px;
+    padding:7px;
+    border:none;
+    border-radius:3px;
+    outline:0;
+}
+
+#sub{
+    width:200px;
+    padding:7px;
+    font-size:16px ;
+    font-family:sans-serif ;
+    font-style:italic ;
+    font-weight:600;
+    border:none;
+    border-radius: 3px;
+    outline:0;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: orangered;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.map{
+    border-radius: 5px;
+    height: 500px;
+    width: 45px;
+    padding: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.login-box{
+    width:280px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: black;
+}
+.login-box h1{
+    float: left;
+    font-size:40px;
+    border-bottom:6px solid orangered;
+    margin-bottom:50px;
+    padding:13px ;
+}
+.textbox{
+    width:100%;
+    overflow:hidden;
+    font-size:20px;
+    padding:8px 0;
+    margin:8px 0;
+    border-bottom:1px solid orangered;
+
+}
+.textbox i
+{
+    width:26px;
+    float:left;
+    text-aligin:center;
+}
+.textbox input{
+    border:none;
+    outline:none;
+    background:none;
+    color:black;
+    font-size:18px;
+    width:80%;
+    float:left;
+    margin:10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.Forget{
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
