@@ -7,13 +7,13 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('../includes/config.php')">
+                <div class="carousel-item active" style="background-image: url('images/banner1.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                        
                     </div>
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('../images/banner2.jpg')">
+                <div class="carousel-item" style="background-image: url('images/banner2.jpg')">
                     <div class="carousel-caption d-none d-md-block">
                     </div>
                 </div>
